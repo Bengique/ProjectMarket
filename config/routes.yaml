@@ -2,3 +2,6 @@ index:
    path: /
    controller: App\Controller\Homepage::homepage
    
+oc_advert_view:
+    path:       /view/{id}
+    controller: App\Controller\ArticleView::articleView
